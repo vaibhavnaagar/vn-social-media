@@ -86,6 +86,7 @@ const Posts = () => {
   							</div>
   						</div>
   						<div className="post-block__content mb-2">
+                <h5 className="text-muted font-weight-bold">{post.title}</h5>
   							<p>{post.content}</p>
   							<img src={post.imageUrl} alt=""/>
   						</div>
