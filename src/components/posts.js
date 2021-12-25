@@ -31,7 +31,7 @@ const Hearts = ({postId, postHearts}) => {
     <div className="mb-3">
       <div className="d-flex justify-content-between mb-2">
         <div className="d-flex">
-          <button onClick={handleClick} className="text-danger mr-2"><span><i className="fa fa-heart"></i></span></button>
+          <a href="#" onClick={handleClick} className="text-danger mr-2"><span><i className="fa fa-heart"></i></span></a>
           <span className="text-muted font-weight-bold">{hearts}</span>
         </div>
       </div>
