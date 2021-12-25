@@ -1,7 +1,6 @@
 # Simple Social Media with Create React App
 
-This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and \
-[Social Media Post Design](https://kiranworkspace.com/downloads/social-media-post-ui-design-html-css/)
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Social Media Post Design](https://kiranworkspace.com/downloads/social-media-post-ui-design-html-css/)
 
 
 ## Available Scripts
