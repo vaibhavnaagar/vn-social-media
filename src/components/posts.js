@@ -8,7 +8,7 @@ const Hearts = ({postId, postHearts}) => {
 
   const handleClick = async event => {
     event.preventDefault();
-    await fetch('http://127.0.0.1:8787/posts/like', {
+    await fetch('https://media_posts_router_worker.vnagar3.workers.dev/posts/like', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ postId: id[0], like: like })
@@ -51,7 +51,7 @@ const Posts = () => {
   useEffect(() => {
     const getPosts = async () => {
       const resp = await fetch(
-        "http://127.0.0.1:8787/posts"
+        "https://media_posts_router_worker.vnagar3.workers.dev/posts"
       );
       const postsResp = await resp.json();
       setPosts(postsResp);

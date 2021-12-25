@@ -17,7 +17,7 @@ const CreatePost = () => {
       content: event.target.content.value,
       date: now
     };
-    await fetch('http://127.0.0.1:8787/posts', {
+    await fetch('https://media_posts_router_worker.vnagar3.workers.dev/posts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(postData)
